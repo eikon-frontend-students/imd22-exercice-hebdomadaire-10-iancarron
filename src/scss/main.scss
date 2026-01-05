@@ -71,13 +71,13 @@ body {
   background: #f6f6ef;
 }
 
-.player-progress-bar-inner {
+.player-progress-inner {
   width: 120px;
   height: 6px;
   background: #e783bc;
 }
 
-.player-progress .current .total {
+.player-time {
   color: #909090;
   font-size: 15px;
   font-weight: 700;
@@ -93,6 +93,9 @@ body {
   border-radius: 37px;
   background: #e783bc;
   color: #fff;
+  font-family: "Font Awesome 6 Free";
+  font-size: 20px;
+  font-weight: 900;
 }
 
 audio {
