@@ -12,3 +12,89 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #c4d2f5;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.player {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 0 20px rgba(255, 254, 254, 0.15);
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.player-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.player-track-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.player-track-artist {
+  color: #909090;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.player-progress {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.player-progress-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 3px;
+  background: #f6f6ef;
+}
+
+.player-progress-bar-inner {
+  width: 120px;
+  height: 6px;
+  background: #e783bc;
+}
+
+.player-progress .current .total {
+  color: #909090;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.player-button {
+  display: flex;
+  width: 74px;
+  height: 74px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 37px;
+  background: #e783bc;
+  color: #fff;
+}
+
+audio {
+  display: none;
+}
